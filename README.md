@@ -1,11 +1,12 @@
 # Go Diamond-Square Algorithmn
 [Diamond-Square Algorithmn](https://en.wikipedia.org/wiki/Diamond-square_algorithm) is a method for making heighmaps and terrain generation stuff. I doubt my implementation is perfect, but it is inspired by a couple examples I've seen online. If you improve it, feel free to fork and merge. 
 
-## Usage
+## Installation
 ````bash
-go get github.com/xackery/diamondsquare
+$ go get github.com/xackery/diamondsquare
 ````
 
+## Example
 ````
 package main
 import (
@@ -17,6 +18,5 @@ func main() {
 	if e != nil {
 		fmt.Println(e.Error())
 	}
-}
 }
 ````
